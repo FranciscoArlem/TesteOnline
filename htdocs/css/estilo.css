@@ -1,0 +1,39 @@
+.azul{
+  color: #1E90FF;
+}
+.branco{
+  color: #FFF;
+}
+
+	.caixa{
+		background: green;
+		width: 100px;
+		height: 100px;
+		color: #FFFFFF;
+	}
+
+	#relativo{
+		/*com o pposition relative vc consegue movimentar  a div usando os pixel*/
+		position: relative; 
+		width: 300px;
+	}
+
+	#absoluta{
+		position: absolute;
+		bottom: 0;
+		right: 20;
+
+		/* a posicao fica absoluta com relação ao body e nao a pagina inteira*/
+	}
+
+	#fixa{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: #000;
+
+		/* nao fica posicionada ao paremte mais proximo, e sim ao browser
+		muito interessante  pra usar um menu que fica posicionado ao topo*/
+
+	}

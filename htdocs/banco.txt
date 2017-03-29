@@ -1,0 +1,30 @@
+u840684955_Exd 
+u840684955_Admin
+123456
+
+
+
+CREATE TABLE usuarios (
+id int not null PRIMARY KEY AUTO_INCREMENT,
+    usuario varchar(50) not null,
+    email varchar(100)not null,
+    senha varchar(32) not null 
+)
+
+
+create table produtos (
+
+cod_produto int unsigned not null primary key,
+
+tipo_prod int unsigned not null,
+
+nome_prod  varchar (20) not null,
+
+quantidade int unsigned not null,
+
+valor double unsigned not null,
+
+tipo_venda varchar(5) default 'Venda'
+
+)
+
